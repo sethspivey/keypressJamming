@@ -66,6 +66,8 @@ class App extends React.Component {
         searchResults: newSearchResults
       });
     })
+
+    // localStorage.setItem('tracks', JSON.stringify(this.state.searchResults));
   }
 
   render() {
